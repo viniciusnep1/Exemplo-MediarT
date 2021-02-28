@@ -7,7 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace financeiro_service.Core.Repository
+namespace entities.config
 {
     public class EFRepository<T> : IRepository<T> where T : BaseEntity
     {
@@ -41,23 +41,23 @@ namespace financeiro_service.Core.Repository
             }
         }
 
-        public (IQueryable<T> Itens, int TotalPaginas, int TotalItens) GetAll(ParametrosBusca parametros)
+        public (IQueryable<T> Itens, int TotalPaginas, int TotalItens) GetAll(Pagination pagination)
         {
             var result = Context.Set<T>().Where(item => !item.DeletedAt.HasValue);
-            return ApplyParams(parametros, result);
+            return ApplyParams(pagination, result);
         }
 
         public (IQueryable<T> Itens, int TotalPaginas, int TotalItens) GetAll(Expression<Func<T, bool>> expression,
-            ParametrosBusca parametros)
+            Pagination pagination)
         {
             var result = Context.Set<T>().Where(item => !item.DeletedAt.HasValue).Where(expression);
-            return ApplyParams(parametros, result);
+            return ApplyParams(pagination, result);
         }
 
-        private (IQueryable<T> Itens, int TotalPaginas, int TotalItens) ApplyParams(ParametrosBusca parametros, IQueryable<T> result)
+        private (IQueryable<T> Itens, int TotalPaginas, int TotalItens) ApplyParams(Pagination pagination, IQueryable<T> result)
         {
-            var lista = ApplyOrder(result, parametros.Ordem, parametros.Decrescente);
-            (IQueryable<T> Itens, int TotalPaginas, int TotalItens) = ApplyPagination(lista, parametros.Pagina, parametros.TamanhoPagina);
+            var lista = ApplyOrder(result, pagination.Order, pagination.Desc);
+            (IQueryable<T> Itens, int TotalPaginas, int TotalItens) = ApplyPagination(lista, pagination.Page, pagination.PageSize);
             return (Itens.ToList().AsQueryable(), TotalPaginas, TotalItens);
         }
 

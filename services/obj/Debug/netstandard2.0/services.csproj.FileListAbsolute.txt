@@ -6,3 +6,17 @@ C:\Users\Vinicius Barbosa\source\repos\API\services\obj\Debug\netstandard2.0\ser
 C:\Users\Vinicius Barbosa\source\repos\API\services\obj\Debug\netstandard2.0\services.csproj.CoreCompileInputs.cache
 C:\Users\Vinicius Barbosa\source\repos\API\services\obj\Debug\netstandard2.0\services.dll
 C:\Users\Vinicius Barbosa\source\repos\API\services\obj\Debug\netstandard2.0\services.pdb
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\bin\Debug\netstandard2.0\services.deps.json
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\bin\Debug\netstandard2.0\services.dll
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\bin\Debug\netstandard2.0\services.pdb
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\bin\Debug\netstandard2.0\core.dll
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\bin\Debug\netstandard2.0\entities.dll
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\bin\Debug\netstandard2.0\entities.pdb
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\bin\Debug\netstandard2.0\core.pdb
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\obj\Debug\netstandard2.0\services.csprojAssemblyReference.cache
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\obj\Debug\netstandard2.0\services.AssemblyInfoInputs.cache
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\obj\Debug\netstandard2.0\services.AssemblyInfo.cs
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\obj\Debug\netstandard2.0\services.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\obj\Debug\netstandard2.0\services.csproj.CopyComplete
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\obj\Debug\netstandard2.0\services.dll
+C:\Users\Vinicius Barbosa\source\repos\Exemplo-MediarT\services\obj\Debug\netstandard2.0\services.pdb

@@ -1,7 +1,7 @@
-﻿using financeiro_service.Core.Geral;
+﻿using entities.entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace entities.repository
+namespace entities
 {
     public class EFAppContext : DbContext
     {
@@ -9,6 +9,7 @@ namespace entities.repository
           : base(options)
         { }
 
+        public DbSet<Employee> Employees { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
