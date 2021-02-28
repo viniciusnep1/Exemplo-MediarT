@@ -1,0 +1,8 @@
+C:\Users\Vinicius Barbosa\source\repos\API\core\bin\Debug\netstandard2.0\core.deps.json
+C:\Users\Vinicius Barbosa\source\repos\API\core\bin\Debug\netstandard2.0\core.dll
+C:\Users\Vinicius Barbosa\source\repos\API\core\bin\Debug\netstandard2.0\core.pdb
+C:\Users\Vinicius Barbosa\source\repos\API\core\obj\Debug\netstandard2.0\core.AssemblyInfoInputs.cache
+C:\Users\Vinicius Barbosa\source\repos\API\core\obj\Debug\netstandard2.0\core.AssemblyInfo.cs
+C:\Users\Vinicius Barbosa\source\repos\API\core\obj\Debug\netstandard2.0\core.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius Barbosa\source\repos\API\core\obj\Debug\netstandard2.0\core.dll
+C:\Users\Vinicius Barbosa\source\repos\API\core\obj\Debug\netstandard2.0\core.pdb

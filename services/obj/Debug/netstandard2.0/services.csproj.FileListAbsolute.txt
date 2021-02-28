@@ -1,0 +1,8 @@
+C:\Users\Vinicius Barbosa\source\repos\API\services\bin\Debug\netstandard2.0\services.deps.json
+C:\Users\Vinicius Barbosa\source\repos\API\services\bin\Debug\netstandard2.0\services.dll
+C:\Users\Vinicius Barbosa\source\repos\API\services\bin\Debug\netstandard2.0\services.pdb
+C:\Users\Vinicius Barbosa\source\repos\API\services\obj\Debug\netstandard2.0\services.AssemblyInfoInputs.cache
+C:\Users\Vinicius Barbosa\source\repos\API\services\obj\Debug\netstandard2.0\services.AssemblyInfo.cs
+C:\Users\Vinicius Barbosa\source\repos\API\services\obj\Debug\netstandard2.0\services.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius Barbosa\source\repos\API\services\obj\Debug\netstandard2.0\services.dll
+C:\Users\Vinicius Barbosa\source\repos\API\services\obj\Debug\netstandard2.0\services.pdb
